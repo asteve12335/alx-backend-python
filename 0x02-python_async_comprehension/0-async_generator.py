@@ -7,7 +7,7 @@ import typing
 import random
 
 
-async def async_generator() -> typing.AsyncGenerator[float, None]:
+async def async_generator() -> typing.Generator[float, None]:
     """
     Generates a sequence of 10 random floats between 0 and 10,
     pausing for 1 second between each number.
